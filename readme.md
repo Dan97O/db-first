@@ -25,6 +25,7 @@ Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardant
 - car_image [VARCHAR(255)] NULL
 - engine_displacement [DECIMAL(8,2)] NULL
 - kilometer [DECIMAL(10,3)] NULL, INDEX
+- fuel_type [VARCHAR(100)] NOTNULL, INDEX
 - city_consumption [DECIMAL(5,2)], NULL
 - combined_consumption [DECIMAL(5,2)], NULL
 - outdoors_consumption [DECIMAL(5,2)], NULL
